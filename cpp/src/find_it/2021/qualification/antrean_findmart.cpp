@@ -1,4 +1,4 @@
-#include "find_it/trial_2021/antrean_findmart.hpp"
+#include "find_it/2021/qualification/antrean_findmart.hpp"
 #include <iostream>
 #include <vector>
 #include <numeric>
@@ -16,7 +16,11 @@ void antreanFindmart() {
     }
 
     for (int i = 0; i < t; ++i) {
-        if ((std::accumulate(antran[i].begin(), antran[i].end(), 0) + m[i] - 1) > n[i])
+        if ((std::accumulate(antran[i].begin(), antran[i].end(), 0) + m[i] - 1) > n[i]) {
             std::cout << "OI\n";
+            continue;
+        }
+
+
     }
 }

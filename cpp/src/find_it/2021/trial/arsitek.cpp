@@ -1,4 +1,4 @@
-#include "find_it/trial_2021/arsitek.hpp"
+#include "find_it/2021/trial/arsitek.hpp"
 
 void arsitek() {
     int n = 0;

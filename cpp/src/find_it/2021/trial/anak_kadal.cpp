@@ -1,4 +1,4 @@
-#include "find_it/trial_2021/anak_kadal.hpp"
+#include "find_it/2021/trial/anak_kadal.hpp"
 
 void anakKadal() {
     int t;

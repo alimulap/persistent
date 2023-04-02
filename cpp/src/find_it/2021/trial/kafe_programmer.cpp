@@ -1,4 +1,4 @@
-#include "find_it/trial_2021/kafe_programmer.hpp"
+#include "find_it/2021/trial/kafe_programmer.hpp"
 
 struct Pembeli {
     int t;

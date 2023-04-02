@@ -1,4 +1,4 @@
-#include "find_it/trial_2021/saklar_ajaib.hpp"
+#include "find_it/2021/trial/saklar_ajaib.hpp"
 
 int main() {
     std::cout << saklarAjaibAlt();

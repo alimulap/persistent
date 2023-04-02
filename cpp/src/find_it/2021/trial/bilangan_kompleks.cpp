@@ -1,4 +1,4 @@
-#include "find_it/trial_2021/bilangan_kompleks.hpp"
+#include "find_it/2021/trial/bilangan_kompleks.hpp"
 
 void bilangan_kompleks() {
     int a1, b1, a2, b2;

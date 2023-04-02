@@ -1,4 +1,4 @@
-#include "find_it/trial_2021/eternal_labyrinth.hpp"
+#include "find_it/2021/trial/eternal_labyrinth.hpp"
 
 int eternalLabyrinth() {
     int r, c;
