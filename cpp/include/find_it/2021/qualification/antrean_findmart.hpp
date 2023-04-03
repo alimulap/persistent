@@ -1,3 +1,7 @@
 #include <iostream>
+#include <vector>
+#include <numeric>
 
-void antreanFindmart();
+namespace findit {
+    void antreanFindmart();
+}

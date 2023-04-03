@@ -1,6 +1,6 @@
 #include "find_it/2021/trial/anak_kadal.hpp"
 
-void anakKadal() {
+void findit::anakKadal() {
     int t;
     std::cin >> t;
     int n[t];

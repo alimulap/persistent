@@ -1,3 +1,5 @@
 #include <iostream>
 
-void arsitek();
+namespace findit {
+    void arsitek();
+}

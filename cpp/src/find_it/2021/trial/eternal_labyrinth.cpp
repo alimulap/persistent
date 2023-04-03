@@ -1,6 +1,6 @@
 #include "find_it/2021/trial/eternal_labyrinth.hpp"
 
-int eternalLabyrinth() {
+int findit::eternalLabyrinth() {
     int r, c;
     std::cin >> r >> c;
 
@@ -11,8 +11,8 @@ int eternalLabyrinth() {
 
     int res = 0;
 
-    std::vector<Point> p;
-    p.emplace_back(Point{ 0,0 });
+    std::vector<findit::Point> p;
+    p.emplace_back(findit::Point{ 0,0 });
 
     bool moved;
     while (!p.empty()) {
@@ -24,7 +24,7 @@ int eternalLabyrinth() {
             }
             if (p[i].y + 1 < r && labyrinth[p[i].y + 1][p[i].x - moved] != -1) {
                 if (moved) 
-                    p.emplace_back(Point { (short)(p[i].x - 1), (short)(p[i].y + 1) });
+                    p.emplace_back(findit::Point { (short)(p[i].x - 1), (short)(p[i].y + 1) });
                 else {
                     p[i].y++;
                     moved = true;

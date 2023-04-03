@@ -1,3 +1,5 @@
 #include <iostream>
 
-void bilangan_kompleks();
+namespace findit {
+    void bilangan_kompleks();
+}

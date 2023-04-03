@@ -1,9 +1,6 @@
 #include "find_it/2021/qualification/antrean_findmart.hpp"
-#include <iostream>
-#include <vector>
-#include <numeric>
 
-void antreanFindmart() {
+void findit::antreanFindmart() {
     int t;
     std::cin >> t;
 

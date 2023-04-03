@@ -1,8 +1,17 @@
 #include <iostream>
 #include <algorithm>
 
-int kafeProgrammer();
+namespace findit {
+    struct Pembeli {
+        int t;
+        int l;
+    };
 
-void bubbleSortUnq(int** arr, int size);
+    bool compare(Pembeli& a, Pembeli& b);
 
-int kafeProgrammerStruct();
+    int kafeProgrammer();
+
+    void bubbleSortUnq(int** arr, int size);
+
+    int kafeProgrammerStruct();
+}
