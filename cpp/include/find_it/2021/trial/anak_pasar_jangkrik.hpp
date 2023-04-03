@@ -1,6 +1,4 @@
 #include <iostream>
 #include <string>
 
-namespace findit {
-    std::string anakPasarJangkrik();
-}
+std::string anakPasarJangkrik();

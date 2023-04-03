@@ -1,7 +1,5 @@
 #include <iostream>
 
-namespace findit {
-    int saklarAjaib();
+int saklarAjaib();
 
-    int saklarAjaibAlt();
-}
+int saklarAjaibAlt();

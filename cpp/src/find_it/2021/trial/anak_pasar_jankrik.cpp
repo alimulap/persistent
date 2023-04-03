@@ -1,7 +1,6 @@
 #include "find_it/2021/trial/anak_pasar_jangkrik.hpp"
-#include <functional>
 
-std::string findit::anakPasarJangkrik() {
+std::string anakPasarJangkrik() {
     int x1, v1, x2, v2;
     std::cin >> x1 >> v1 >> x2 >> v2;
 
@@ -18,11 +17,6 @@ std::string findit::anakPasarJangkrik() {
     //    return "NO";
 
     // for keep track salip salip an
-    //
-    //
-    
-    std::function<bool(int, int)> conditionX;
-
     auto condition = x1 > x2 ? 
         [](int l, int r) -> bool { return l > r; } : 
         [](int l, int r) -> bool { return r > l; };
