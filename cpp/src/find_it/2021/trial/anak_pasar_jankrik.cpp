@@ -1,7 +1,6 @@
 #include "find_it/2021/trial/anak_pasar_jangkrik.hpp"
-#include <functional>
 
-std::string findit::anakPasarJangkrik() {
+std::string anakPasarJangkrik() {
     int x1, v1, x2, v2;
     std::cin >> x1 >> v1 >> x2 >> v2;
 

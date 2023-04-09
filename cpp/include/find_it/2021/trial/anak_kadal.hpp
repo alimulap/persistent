@@ -1,5 +1,3 @@
 #include <iostream>
 
-namespace findit {
-    void anakKadal();
-}
+void anakKadal();

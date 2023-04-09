@@ -1,10 +1,15 @@
 #include "find_it/2021/trial/kafe_programmer.hpp"
 
-bool findit::compare(Pembeli& a, Pembeli& b) {
+struct Pembeli {
+    int t;
+    int l;
+};
+
+bool compare(Pembeli& a, Pembeli& b) {
     return a.l < b.l;
 }
 
-int findit::kafeProgrammerStruct() {
+int kafeProgrammerStruct() {
     int n;
     std::cin >> n;
 
@@ -43,7 +48,7 @@ int findit::kafeProgrammerStruct() {
     return res/n;
 }
 
-int findit::kafeProgrammer() {
+int kafeProgrammer() {
     int n;
     std::cin >> n;
 
@@ -71,7 +76,7 @@ int findit::kafeProgrammer() {
     return res/n;
 }
 
-void findit::bubbleSortUnq(int** arr, int size) {
+void bubbleSortUnq(int** arr, int size) {
     int* temp;
     for (int i = 0; i < size; ++i) {
         for (int j = 1; j < size - i; ++j) {

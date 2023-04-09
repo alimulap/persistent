@@ -1,6 +1,6 @@
 #include "find_it/2021/trial/arsitek.hpp"
 
-void findit::arsitek() {
+void arsitek() {
     int n = 0;
     std::cin >> n;
     char l = n % 2 == 0 ? '*' : ' ';
