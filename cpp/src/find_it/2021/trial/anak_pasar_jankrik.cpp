@@ -18,11 +18,6 @@ std::string findit::anakPasarJangkrik() {
     //    return "NO";
 
     // for keep track salip salip an
-    //
-    //
-    
-    std::function<bool(int, int)> conditionX;
-
     auto condition = x1 > x2 ? 
         [](int l, int r) -> bool { return l > r; } : 
         [](int l, int r) -> bool { return r > l; };
