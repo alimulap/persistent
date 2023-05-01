@@ -1,10 +1,14 @@
-#include "find_it/2021/qualification/jaga_jarak.hpp"
+#include "find_it/2022/qualification/kurung_mengurung.hpp"
+#include <ctime>
 
 int main() {
-<<<<<<< HEAD
-    std::cout << findit::jagaJarak();
-=======
-    std::cout << saklarAjaibAlt();
->>>>>>> d263c9ac6e473c56e1560cda6e6374a3bbe757d9
+    std::string input;
+    std::cin >> input;
+    long start = std::clock();
+    findit::kurungMengurung(input);
+    std::cout << "\n" << std::clock() - start << "\n\n";
+    start = std::clock();
+    findit::kurungMengurung2(input);
+    std::cout << "\n" << std::clock() - start << "\n\n";
     return 0;
 }
