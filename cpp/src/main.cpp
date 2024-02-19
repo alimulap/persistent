@@ -1,14 +1,17 @@
-#include "find_it/2022/qualification/kurung_mengurung.hpp"
+#include "find_it/2022/qualification/menebak_angka.hpp"
 #include <ctime>
+#include <iostream>
 
 int main() {
-    std::string input;
-    std::cin >> input;
+    int t;
+    std::cin >> t;
+
+    int n[t];
+    for (int i = 0; i < t; ++i)
+        n[i] = i + 1;
+
     long start = std::clock();
-    findit::kurungMengurung(input);
-    std::cout << "\n" << std::clock() - start << "\n\n";
-    start = std::clock();
-    findit::kurungMengurung2(input);
-    std::cout << "\n" << std::clock() - start << "\n\n";
+    findit::menebakAngka(t, n);
+    std::cout << "\n\n" << std::clock() - start;
     return 0;
 }

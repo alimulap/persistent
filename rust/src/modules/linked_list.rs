@@ -1,3 +1,1 @@
-struct Node {
-    head: LinkedList,
-}
+

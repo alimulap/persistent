@@ -1,5 +1,5 @@
 #include <iostream>
 
 namespace findit {
-    int jagaJarak();
+    void menebakAngka(int t, int n[]);
 }
